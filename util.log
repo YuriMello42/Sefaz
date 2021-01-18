@@ -1,0 +1,6 @@
+/*C4*/SET SCHEMA PUBLIC
+drop table cadastrodeusuario\u000a
+create table usuario(\u000aid identity not null,\u000anome  varchar(100) not null,\u000aemail varchar(100) not null,\u000asenha varchar(50) not null,\u000atelefone varchar(11),\u000aprimary key(id)\u000a\u000a)
+INSERT INTO USUARIO VALUES(0,'-','-','-','00000000000')
+COMMIT
+DISCONNECT
